@@ -2,7 +2,7 @@
 
 /***** CSS VARIABLE *****/
 :root {
-  --btnBold-clr: hsl(238, 29%, 16%);
+  --Bold-clr: hsl(238, 29%, 16%);
   --hover-clr: hsl(14, 88%, 65%);
   --question-clr: hsl(237, 12%, 33%);
   --answer-clr: hsl(240, 6%, 50%);
@@ -203,6 +203,7 @@ body {
 
 .faq__box.open .question__txt {
   font-weight: 700;
+  color: var(--Bold-clr);
 }
 
 .faq__box.open .answer {
