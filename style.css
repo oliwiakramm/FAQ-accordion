@@ -225,6 +225,7 @@ body {
   width: 100%;
   padding: 1rem 0;
   cursor: pointer;
+  color: var(--question-clr);
 }
 
 .question:hover .question__txt,
